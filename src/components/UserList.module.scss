@@ -1,0 +1,43 @@
+.userListContainer {
+  padding: 16px;
+  background-color: #f9f9f9;
+}
+
+.filterInput {
+  margin-bottom: 16px;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.sortButtons {
+  display: flex;
+  gap: 8px;
+  margin: 16px 0;
+  flex-wrap: wrap;
+}
+
+.userCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.userCard {
+  padding: 16px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(50% - 16px);
+  box-sizing: border-box;
+
+  @media (max-width: 768px) {
+    flex: 1 1 calc(100% - 16px);
+  }
+
+  @media (max-width: 480px) {
+    padding: 12px;
+  }
+}
