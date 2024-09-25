@@ -4,6 +4,10 @@
 
 Welcome to the React TypeScript Frontend Assignment! This project is a user dashboard application built using **React** and **TypeScript**. It allows users to view, filter, and sort a list of users, providing a smooth and interactive experience.
 
+## Demo
+
+You can view the live demo of the application [here](https://react-ts-frontend-assignment.netlify.app/).
+
 ## Technologies Used
 
 This project uses several key technologies:
@@ -42,20 +46,19 @@ Make sure you have the following installed:
    npm install
    ```
 
-3. **Start the application: Launch the development server with:**:
+3. **Start the application: Launch the development server with:**
 
-   ````bash
+   ```bash
    npm start
-    ```
-   After this, open your browser and go to http://localhost:3000 to see the application in action.
+   ```
 
-   ````
+   After this, open your browser and go to http://localhost:3000 to see the application in action.
 
 4. **To create a production-ready build of the app, run**:
    ```bash
    npm run build
    ```
-5. **To execute the test suite, you can use:**:
+5. **To execute the test suite, you can use:**
    ```bash
    npm test
    ```
